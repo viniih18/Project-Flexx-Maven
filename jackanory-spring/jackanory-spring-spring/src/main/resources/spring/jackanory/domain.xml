@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="userStoryDao" class="ie.flexx.jackanory.domain.dao.UserStoryDaoImpl">
+        <constructor-arg ref="userStoryDataDao"/>
+    </bean>
+    <bean id="userStoryRequirementDao" class="ie.flexx.jackanory.domain.dao.UserStoryRequirementDaoImpl">
+        <constructor-arg ref="userStoryRequirementDataDao"/>
+    </bean>
+    <bean id="userStoryResearchDao" class="ie.flexx.jackanory.domain.dao.UserStoryResearchDaoImpl">
+        <constructor-arg ref="userStoryResearchDataDao"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ie.flexx.jackanory.data.UserStoryRequirementDataTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in ie.flexx.jackanory.data.UserStoryRequirementDataTest

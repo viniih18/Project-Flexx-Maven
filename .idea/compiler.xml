@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jackanory-data-dao-api" />
+        <module name="jackanory-data-dao-impl" />
+        <module name="jackanory-data-impl" />
+        <module name="jackanory-domain-api" />
+        <module name="jackanory-domain-dao-api" />
+        <module name="jackanory-domain-dao-impl" />
+        <module name="jackanory-domain-impl" />
+        <module name="jackanory-manager-api" />
+        <module name="jackanory-manager-impl" />
+        <module name="jackanory-spring-spring" />
+        <module name="jackanory-tests-impl" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
